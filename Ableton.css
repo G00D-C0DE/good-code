@@ -1,0 +1,354 @@
+* {
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+body {
+    background-color: #ffffff;
+    /* height: 1000vw; */
+}
+
+/*///////////////header\\\\\\\\\\\\\\\*/
+header {
+    margin-top: 15px;
+    position: relative;
+}
+nav {
+    width: 765px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+header a {
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+
+                   /*---------*/  /*M*/
+nav span {
+    width: 73px;
+    height: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ff764d;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    padding-top: 1px;
+}                                  /*O*/
+nav span .div-1{
+    background-color: #ff764d;
+    display: inline-block;
+    width: 12px;
+    height: 2px;
+    position: relative;
+    top: -3px;
+    left: 4px;
+}
+nav span .div-2{
+    background-color: #ff764d;     
+    display: inline-block;
+    width: 2px;
+    height: 12px;
+    position: relative;
+    top: 2px;
+    right: 7px;
+}
+
+nav span:hover .div-2 {
+    display: none;
+}
+.dropdown {                            /*R*/  
+    width: 1500px;
+    height: 1000px;
+    background-color: black;
+    margin: auto;
+    position: absolute;
+    top: -1089px;
+    right: -786px;
+    text-align: center;
+    font-size: 150px;
+                                      
+}
+span:hover .dropdown{
+    width: 1500px;
+    height: 1000px;
+    background-color: black;
+    margin: auto;
+    position: absolute;
+    top: 30px;
+    right: -786px;
+    text-align: center;
+    font-size: 150px;
+    z-index: 1;
+   
+}                           /*--------*/    /*E*/
+
+
+
+
+                   
+
+                    /*--------*/    /*Go*/
+.homeBag-container {
+    width: 61px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between; 
+    cursor: pointer; 
+}             
+nav .home-bag {
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;    
+}
+nav .home-bag div {                      /*TO*/
+    cursor: pointer;
+    background: black;
+    width: 4px;
+    height: 28px;
+    cursor: pointer;
+}
+
+nav .home-bag-2{
+    width: 28px;
+    height: 28px;                    /*Home*/
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    cursor: pointer;
+}
+nav .home-bag-2 div {
+    background: black;
+    width: 28px;
+    height: 4px;
+    cursor: pointer;
+}
+
+.homeBag-container:hover .div-11 {
+    width: 28px;
+    height: 4px;
+
+}
+.homeBag-container:hover .div-12 {
+    width: 28px;
+    height: 4px;
+
+}
+.homeBag-container:hover .div-14 {
+    width: 28px;
+    height: 4px;
+
+}
+.homeBag-container:hover .div-13 {
+    width: 28px;
+    height: 4px;
+
+}
+.homeBag-container:hover .home-bag{
+    width: 28px;
+    height: 28px;                    /*Home*/
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    cursor: pointer;
+}
+.homeBag-container:hover .div-22 {
+    width: 4px;
+    height: 28px;
+}
+.homeBag-container:hover .div-24 {
+    width: 4px;
+    height: 28px;
+}
+.homeBag-container:hover .div-23 {
+    width: 4px;
+    height: 28px;
+}
+.homeBag-container:hover .div-25 {
+    width: 4px;
+    height: 28px;
+}
+.homeBag-container:hover .home-bag-2{
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer; 
+    flex-direction: row; 
+}                                /*--------*/      /*bage*/
+
+
+
+
+
+ ul {
+      width: 535px;
+      height: 25px;
+      margin: 0px;
+      list-style: none;
+      padding: 0px;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 2px;
+}
+ li {
+     display: inline-block;
+ }
+
+
+
+
+.nav-link {
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    position: relative;
+    top: -30px;
+    left: 1250px;
+}
+.nav-link .link-1 {
+    color: blue;
+    font-size: 20px;
+    font-weight: 600;
+}
+.nav-link .link-2 {
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 7px;
+}
+
+
+
+
+
+
+header hr {
+    color: red;
+    background: lawngreen;
+    position:relative;
+    top: -7px;
+    opacity: 0.2;
+}
+
+
+
+
+
+
+.link-header {
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+    margin:  -11px 0px 30px 20px;
+}
+.link-header a {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/*///////////////END header\\\\\\\\\\\\\\*/
+
+
+
+
+/*///////////////group-1\\\\\\\\\\\\\\\\\*/
+.group-1{
+    height: 1400px;
+}
+.group-1 img {
+    width: 1333px;
+    height: 940px;
+    margin: auto;
+    display: block;
+    margin: auto;
+}
+.group-1 a {
+    color: #0000ff;
+}
+.div-group-1-pra-1 {
+    width: 1000px;
+    height: fit-content;
+    margin: 120px 0px 0px 410px ;
+}
+.div-group-1-pra-2 {
+    width: 1000px;
+    height: fit-content;
+    margin: 30px 0px 0px 410px ;
+}
+
+.group-1-pra-1 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    
+}
+.group-1-pra-2 {
+    font-size: 20px;
+    line-height: 40px;
+}
+/*/////////////////END-group-1\\\\\\\\\\\\\\\\\\*/
+
+
+/*///////////////group-1\\\\\\\\\\\\\\\\\*/
+.group-2 {
+    height: 1270px;
+    position: relative;
+}
+.div-1-group-2 {
+    width: 910px;
+    height: 935px;
+    position: absolute;
+    right: 0px;
+    background-color: #fbffa6;
+}
+.group-2 .img1-group-2 {
+   position: absolute;
+   top: 262px;
+   left: 280px;
+   width: 533px;
+   height: 400px;
+   z-index: 1;
+}
+.group-2 .img2-group-2 {
+    position: absolute;
+    top: 125px;
+    left: 125px;
+    width: 666px;
+    height: 666px;
+}
+
+
+
+.group-2 .div-group-2-pra-1 {
+    position: absolute;
+    bottom: 88px;
+    right: 413px;
+}
+.group-2 .div-group-2-pra-2 {
+    position: absolute;
+    bottom: 0px;
+    right: 362px;
+}
+
+
+
+.group-2 .group-2-pra-1 {
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.group-2 .group-2-pra-2{
+    font-size: 19px;
+    line-height: 40px;
+}
+/*//////////////END-group-1\\\\\\\\\\\\\\*/
