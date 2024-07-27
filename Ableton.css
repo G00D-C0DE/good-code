@@ -7,7 +7,6 @@
 }
 body {
     background-color: #ffffff;
-    /* height: 1000vw; */
 }
 
 /*///////////////header\\\\\\\\\\\\\\\*/
@@ -26,11 +25,7 @@ header a {
     font-size: 20px;
     font-weight: 500;
 }
-
-
-
-
-                   /*---------*/  /*M*/
+/*dropdown*/
 nav span {
     width: 73px;
     height: 25px;
@@ -41,7 +36,7 @@ nav span {
     position: relative;
     cursor: pointer;
     padding-top: 1px;
-}                                  /*O*/
+}                           
 nav span .div-1{
     background-color: #ff764d;
     display: inline-block;
@@ -64,7 +59,7 @@ nav span .div-2{
 nav span:hover .div-2 {
     display: none;
 }
-.dropdown {                            /*R*/  
+.dropdown {                       
     width: 1500px;
     height: 1000px;
     background-color: black;
@@ -88,109 +83,80 @@ span:hover .dropdown{
     font-size: 150px;
     z-index: 1;
    
-}                           /*--------*/    /*E*/
+}                           
+/*End dropdown*/
 
-
-
-
-                   
-
-                    /*--------*/    /*Go*/
-.homeBag-container {
+/*icon purger*/
+.icon-purger-container {
     width: 61px;
     height: 30px;
     display: flex;
     justify-content: space-between; 
     cursor: pointer; 
 }             
-nav .home-bag {
+nav .icon-purger-own {
     width: 28px;
     height: 28px;
     display: flex;
     justify-content: space-between;
     cursor: pointer;    
 }
-nav .home-bag div {                      /*TO*/
+nav .icon-purger-own div {             
     cursor: pointer;
     background: black;
     width: 4px;
     height: 28px;
-    cursor: pointer;
 }
 
-nav .home-bag-2{
+nav .icon-purger-tow{
     width: 28px;
-    height: 28px;                    /*Home*/
+    height: 28px;                
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     cursor: pointer;
 }
-nav .home-bag-2 div {
+nav .icon-purger-tow div {
     background: black;
     width: 28px;
     height: 4px;
     cursor: pointer;
 }
-
-.homeBag-container:hover .div-11 {
+.icon-purger-container:hover .div-11,
+.icon-purger-container:hover .div-12,
+.icon-purger-container:hover .div-13,
+.icon-purger-container:hover .div-14 {
     width: 28px;
     height: 4px;
-
 }
-.homeBag-container:hover .div-12 {
-    width: 28px;
-    height: 4px;
 
-}
-.homeBag-container:hover .div-14 {
+.icon-purger-container:hover .icon-purger-own{
     width: 28px;
-    height: 4px;
-
-}
-.homeBag-container:hover .div-13 {
-    width: 28px;
-    height: 4px;
-
-}
-.homeBag-container:hover .home-bag{
-    width: 28px;
-    height: 28px;                    /*Home*/
+    height: 28px;                
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     cursor: pointer;
 }
-.homeBag-container:hover .div-22 {
+.icon-purger-container:hover .div-22,
+.icon-purger-container:hover .div-24,
+.icon-purger-container:hover .div-23,
+.icon-purger-container:hover .div-25 {
     width: 4px;
     height: 28px;
 }
-.homeBag-container:hover .div-24 {
-    width: 4px;
-    height: 28px;
-}
-.homeBag-container:hover .div-23 {
-    width: 4px;
-    height: 28px;
-}
-.homeBag-container:hover .div-25 {
-    width: 4px;
-    height: 28px;
-}
-.homeBag-container:hover .home-bag-2{
+
+.icon-purger-container:hover .icon-purger-tow{
     width: 28px;
-    height: 28px;
+    height: 28px;icon-purger-tow
     display: flex;
     justify-content: space-between;
     cursor: pointer; 
     flex-direction: row; 
-}                                /*--------*/      /*bage*/
+}                               
+/* End icon purger*/
 
-
-
-
-
- ul {
+ul {
       width: 535px;
       height: 25px;
       margin: 0px;
@@ -203,9 +169,6 @@ nav .home-bag-2 div {
  li {
      display: inline-block;
  }
-
-
-
 
 .nav-link {
     display: flex;
@@ -227,11 +190,6 @@ nav .home-bag-2 div {
     margin-top: 7px;
 }
 
-
-
-
-
-
 header hr {
     color: red;
     background: lawngreen;
@@ -239,11 +197,6 @@ header hr {
     top: -7px;
     opacity: 0.2;
 }
-
-
-
-
-
 
 .link-header {
     width: 260px;
@@ -258,60 +211,56 @@ header hr {
 
 /*///////////////END header\\\\\\\\\\\\\\*/
 
-
-
-
-/*///////////////group-1\\\\\\\\\\\\\\\\\*/
-.group-1{
+/*///////////////section one\\\\\\\\\\\\\\\\\*/
+.section-one{
     height: 1400px;
 }
-.group-1 img {
+.section-one img {
     width: 1333px;
     height: 940px;
     margin: auto;
     display: block;
     margin: auto;
 }
-.group-1 a {
+.section-one a {
     color: #0000ff;
 }
-.div-group-1-pra-1 {
+.section-One-div-pra-One {
     width: 1000px;
     height: fit-content;
     margin: 120px 0px 0px 410px ;
 }
-.div-group-1-pra-2 {
+.section-One-div-pra-two {
     width: 1000px;
     height: fit-content;
     margin: 30px 0px 0px 410px ;
 }
 
-.group-1-pra-1 {
+.section-One-pra-One {
     font-size: 30px;
     font-weight: 700;
     line-height: 36px;
     
 }
-.group-1-pra-2 {
+.section-One-pra-two {
     font-size: 20px;
     line-height: 40px;
 }
-/*/////////////////END-group-1\\\\\\\\\\\\\\\\\\*/
+/*//////////////END section one\\\\\\\\\\\\\\*/
 
-
-/*///////////////group-1\\\\\\\\\\\\\\\\\*/
-.group-2 {
+/*///////////////section two \\\\\\\\\\\\\\\\\*/
+.section-two{
     height: 1270px;
     position: relative;
 }
-.div-1-group-2 {
+.section-two-div-one {
     width: 910px;
     height: 935px;
     position: absolute;
     right: 0px;
     background-color: #fbffa6;
 }
-.group-2 .img1-group-2 {
+.img-One-section-two {
    position: absolute;
    top: 262px;
    left: 280px;
@@ -319,7 +268,7 @@ header hr {
    height: 400px;
    z-index: 1;
 }
-.group-2 .img2-group-2 {
+.img-two-section-two{
     position: absolute;
     top: 125px;
     left: 125px;
@@ -327,28 +276,24 @@ header hr {
     height: 666px;
 }
 
-
-
-.group-2 .div-group-2-pra-1 {
+.section-two-div-pra-One {
     position: absolute;
     bottom: 88px;
     right: 413px;
 }
-.group-2 .div-group-2-pra-2 {
+.section-two-div-pra-two {
     position: absolute;
     bottom: 0px;
     right: 362px;
 }
 
-
-
-.group-2 .group-2-pra-1 {
+.section-two-pra-One {
     font-size: 27px;
     font-weight: 700;
     line-height: 36px;
 }
-.group-2 .group-2-pra-2{
+.section-two-div-pra-two{
     font-size: 19px;
     line-height: 40px;
 }
-/*//////////////END-group-1\\\\\\\\\\\\\\*/
+/*//////////////END section two\\\\\\\\\\\\\\*/
